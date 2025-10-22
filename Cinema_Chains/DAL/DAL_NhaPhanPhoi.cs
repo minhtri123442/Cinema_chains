@@ -39,5 +39,53 @@ namespace DAL
                 SoDienThoai = npp.DienThoai
             };
         }
+
+        // Thêm nhà phân phối mới
+        public bool Insert(DTO_NhaPhanPhoi dto)
+        {
+            try
+            {
+                NhaPhanPhoi npp = new NhaPhanPhoi
+                {
+                    TenNPP = dto.TenNPP,
+                    DiaChi = dto.DiaChi,
+                    DienThoai = dto.SoDienThoai
+                };
+                db.NhaPhanPhois.InsertOnSubmit(npp);
+                db.SubmitChanges();
+                return true;
+            }
+            catch { return false; }
+        }
+
+        // Sửa nhà phân phối
+        public bool Update(DTO_NhaPhanPhoi dto)
+        {
+            try
+            {
+                NhaPhanPhoi npp = db.NhaPhanPhois.FirstOrDefault(x => x.MaNPP == dto.MaNPP);
+                if (npp == null) return false;
+                npp.TenNPP = dto.TenNPP;
+                npp.DiaChi = dto.DiaChi;
+                npp.DienThoai = dto.SoDienThoai;
+                db.SubmitChanges();
+                return true;
+            }
+            catch { return false; }
+        }
+
+        //Xóa nhà phân phối
+        public bool Delete(int ma)
+        {
+            try
+            {
+                var npp = db.NhaPhanPhois.FirstOrDefault(x => x.MaNPP == ma);
+                if (npp == null) return false;
+                db.NhaPhanPhois.DeleteOnSubmit(npp);
+                db.SubmitChanges();
+                return true;
+            }
+            catch { return false; }
+        }
     }
 }

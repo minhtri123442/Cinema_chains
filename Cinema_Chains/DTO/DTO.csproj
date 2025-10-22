@@ -52,10 +52,13 @@
     <Compile Include="clsMatHang.cs" />
     <Compile Include="DTO_ChiTietCombo.cs" />
     <Compile Include="DTO_Combo.cs" />
+    <Compile Include="DTO_LichChieu.cs" />
     <Compile Include="DTO_NhaCungCap.cs" />
     <Compile Include="DTO_NhanVien.cs" />
     <Compile Include="DTO_NhaPhanPhoi.cs" />
+    <Compile Include="DTO_PhanPhoiPhim.cs" />
     <Compile Include="DTO_Phim.cs" />
+    <Compile Include="DTO_Phong.cs" />
     <Compile Include="DTO_Rap.cs" />
     <Compile Include="DTO_TheLoai.cs" />
     <Compile Include="Program.cs" />
