@@ -120,7 +120,7 @@ namespace DAL
     #endregion
 		
 		public Cinema_ChainsDataContext() : 
-				base(global::DAL.Properties.Settings.Default.Cinema_ChainsConnectionString1, mappingSource)
+				base(global::DAL.Properties.Settings.Default.Cinema_ChainsConnectionString, mappingSource)
 		{
 			OnCreated();
 		}
@@ -5873,6 +5873,8 @@ namespace DAL
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
+		private int _MaPhanPhoi;
+		
 		private int _MaPhim;
 		
 		private int _MaRap;
@@ -5889,6 +5891,8 @@ namespace DAL
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
     partial void OnCreated();
+    partial void OnMaPhanPhoiChanging(int value);
+    partial void OnMaPhanPhoiChanged();
     partial void OnMaPhimChanging(int value);
     partial void OnMaPhimChanged();
     partial void OnMaRapChanging(int value);
@@ -5906,7 +5910,27 @@ namespace DAL
 			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaPhim", DbType="Int NOT NULL", IsPrimaryKey=true)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaPhanPhoi", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int MaPhanPhoi
+		{
+			get
+			{
+				return this._MaPhanPhoi;
+			}
+			set
+			{
+				if ((this._MaPhanPhoi != value))
+				{
+					this.OnMaPhanPhoiChanging(value);
+					this.SendPropertyChanging();
+					this._MaPhanPhoi = value;
+					this.SendPropertyChanged("MaPhanPhoi");
+					this.OnMaPhanPhoiChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaPhim", DbType="Int NOT NULL")]
 		public int MaPhim
 		{
 			get
@@ -5930,7 +5954,7 @@ namespace DAL
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaRap", DbType="Int NOT NULL", IsPrimaryKey=true)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaRap", DbType="Int NOT NULL")]
 		public int MaRap
 		{
 			get
