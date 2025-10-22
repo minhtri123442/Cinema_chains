@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Cinema_Chains" Class="Cinema_ChainsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=ADMIN-PC\SQLEXPRESS;Initial Catalog=Cinema_Chains;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="Cinema_ChainsConnectionString1" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-V5TSOUU2\SQLEXPRESS;Initial Catalog=Cinema_Chains;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="Cinema_ChainsConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.BangLuong" Member="BangLuongs">
     <Type Name="BangLuong">
       <Column Name="MaLuong" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -263,8 +263,9 @@
   </Table>
   <Table Name="dbo.PhanPhoiPhim" Member="PhanPhoiPhims">
     <Type Name="PhanPhoiPhim">
-      <Column Name="MaPhim" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="MaRap" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaPhanPhoi" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MaPhim" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaRap" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
       <Column Name="NgayBatDau" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
       <Column Name="NgayKetThuc" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Association Name="Phim_PhanPhoiPhim" Member="Phim" ThisKey="MaPhim" OtherKey="MaPhim" Type="Phim" IsForeignKey="true" />

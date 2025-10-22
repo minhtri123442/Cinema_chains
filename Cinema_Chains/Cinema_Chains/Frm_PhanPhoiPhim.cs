@@ -1,4 +1,4 @@
-﻿using BUL;
+using BUL;
 using DTO;
 using System;
 using System.Collections.Generic;
@@ -111,7 +111,15 @@ namespace Cinema_Chains
                     return null;
                 }
 
+                int maPhanPhoi = 0;
+                if (dgvPhanPhoiPhim.SelectedRows.Count > 0)
+                {
+                    maPhanPhoi = Convert.ToInt32(dgvPhanPhoiPhim.SelectedRows[0].Cells["maPhanPhoi"].Value);
+                }
+
+
                 return new DTO_PhanPhoiPhim(
+                    maPhanPhoi,
                     (int)cboPhim.SelectedValue,
                     (int)cboRap.SelectedValue,
                     ngayBD,

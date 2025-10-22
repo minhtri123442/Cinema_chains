@@ -8,6 +8,7 @@ namespace DTO
 {
     public class DTO_PhanPhoiPhim
     {
+        public int maPhanPhoi {  get; set; }
         public int maPhim { get; set; }
         public int maRap { get; set; }
         public DateTime ngayBatDau { get; set; }
@@ -15,8 +16,9 @@ namespace DTO
 
         public DTO_PhanPhoiPhim() { }
 
-        public DTO_PhanPhoiPhim(int maPhim, int maRap, DateTime ngayBatDau, DateTime? ngayKetThuc)
+        public DTO_PhanPhoiPhim(int mapp, int maPhim, int maRap, DateTime ngayBatDau, DateTime? ngayKetThuc)
         {
+            this.maPhanPhoi = mapp;
             this.maPhim = maPhim;
             this.maRap = maRap;
             this.ngayBatDau = ngayBatDau;

@@ -17,6 +17,7 @@ namespace DAL
             var query = from pp in db.PhanPhoiPhims
                         select new DTO_PhanPhoiPhim
                         {
+                            maPhanPhoi = pp.MaPhanPhoi,
                             maPhim = pp.MaPhim,
                             maRap = pp.MaRap,
                             ngayBatDau = pp.NgayBatDau,
@@ -55,9 +56,10 @@ namespace DAL
             try
             {
                 var pp = db.PhanPhoiPhims
-                           .FirstOrDefault(x => x.MaPhim == dto.maPhim && x.MaRap == dto.maRap);
+                           .FirstOrDefault(x => x.MaPhanPhoi == dto.maPhanPhoi);
                 if (pp == null) return false;
-
+                pp.MaPhim = dto.maPhim;
+                pp.MaRap = dto.maRap;
                 pp.NgayBatDau = dto.ngayBatDau;
                 pp.NgayKetThuc = dto.ngayKetThuc;
 

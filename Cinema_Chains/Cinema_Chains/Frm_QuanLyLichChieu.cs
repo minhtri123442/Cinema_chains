@@ -1,4 +1,4 @@
-﻿using BUL;
+using BUL;
 using DTO;
 using System;
 using System.Collections.Generic;
@@ -285,7 +285,7 @@ namespace Cinema_Chains
                 // Lấy dữ liệu và gán vào control
                 cboPhim.SelectedValue = Convert.ToInt32(row.Cells["MaPhim"].Value);
                 cboPhong.SelectedValue = Convert.ToInt32(row.Cells["MaPhong"].Value);
-
+                txtTrangThai.Text = row.Cells["TrangThai"].Value.ToString();
                 dtpNgayChieu.Value = Convert.ToDateTime(row.Cells["NgayChieu"].Value);
                 dtpGioBatDau.Value = Convert.ToDateTime(row.Cells["GioBatDau"].Value);
                 dtpGioKetThuc.Value = Convert.ToDateTime(row.Cells["GioKetThuc"].Value);
@@ -297,8 +297,6 @@ namespace Cinema_Chains
                 MessageBox.Show("Không thể hiển thị dữ liệu: " + ex.Message);
             }
         }
-
-        
     }
     
 }
