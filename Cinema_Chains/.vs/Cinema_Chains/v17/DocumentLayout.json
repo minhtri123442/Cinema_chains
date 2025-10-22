@@ -3,39 +3,39 @@
   "WorkspaceRootPath": "D:\\Cinema_Chains\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|D:\\Cinema_Chains\\cinema_chains\\frm_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|d:\\cinema_chains\\cinema_chains\\frm_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|solutionrelative:cinema_chains\\frm_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|d:\\cinema_chains\\cinema_chains\\frm_quanlyphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|D:\\Cinema_Chains\\cinema_chains\\frm_quanlyphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|solutionrelative:cinema_chains\\frm_quanlyphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|d:\\cinema_chains\\cinema_chains\\frm_quanlyphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|D:\\Cinema_Chains\\cinema_chains\\frm_quanlyphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|solutionrelative:cinema_chains\\frm_quanlyphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{917A9D50-9EA7-4BFC-AFDA-E12D47C0F198}|DAL\\DAL.csproj|d:\\cinema_chains\\dal\\dal_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{917A9D50-9EA7-4BFC-AFDA-E12D47C0F198}|DAL\\DAL.csproj|D:\\Cinema_Chains\\dal\\dal_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{917A9D50-9EA7-4BFC-AFDA-E12D47C0F198}|DAL\\DAL.csproj|solutionrelative:dal\\dal_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|d:\\cinema_chains\\cinema_chains\\frm_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|D:\\Cinema_Chains\\cinema_chains\\frm_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|solutionrelative:cinema_chains\\frm_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{917A9D50-9EA7-4BFC-AFDA-E12D47C0F198}|DAL\\DAL.csproj|d:\\cinema_chains\\dal\\dal_lichchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{917A9D50-9EA7-4BFC-AFDA-E12D47C0F198}|DAL\\DAL.csproj|D:\\Cinema_Chains\\dal\\dal_lichchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{917A9D50-9EA7-4BFC-AFDA-E12D47C0F198}|DAL\\DAL.csproj|solutionrelative:dal\\dal_lichchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B22426F-C2E4-4DB2-A8AE-38051E5839DD}|BUL\\BUL.csproj|d:\\cinema_chains\\bul\\bul_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B22426F-C2E4-4DB2-A8AE-38051E5839DD}|BUL\\BUL.csproj|D:\\Cinema_Chains\\bul\\bul_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B22426F-C2E4-4DB2-A8AE-38051E5839DD}|BUL\\BUL.csproj|solutionrelative:bul\\bul_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C3ACDCA-CAB9-44C4-AF28-A2FAEE76D9C1}|DTO\\DTO.csproj|d:\\cinema_chains\\dto\\dto_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C3ACDCA-CAB9-44C4-AF28-A2FAEE76D9C1}|DTO\\DTO.csproj|D:\\Cinema_Chains\\dto\\dto_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C3ACDCA-CAB9-44C4-AF28-A2FAEE76D9C1}|DTO\\DTO.csproj|solutionrelative:dto\\dto_phanphoiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|d:\\cinema_chains\\cinema_chains\\frm_nhaphanphoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|D:\\Cinema_Chains\\cinema_chains\\frm_nhaphanphoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D5838FB-3454-4C4C-B422-69E492CCB19C}|Cinema_Chains\\Cinema_Chains.csproj|solutionrelative:cinema_chains\\frm_nhaphanphoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -310,8 +310,7 @@
               "RelativeToolTip": "DAL\\DAL_LichChieu.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T01:22:28.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T01:22:28.55Z"
             },
             {
               "$type": "Document",
@@ -323,8 +322,7 @@
               "RelativeToolTip": "DAL\\DAL_PhanPhoiPhim.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T01:04:43.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T01:04:43.92Z"
             },
             {
               "$type": "Document",
@@ -349,8 +347,7 @@
               "RelativeToolTip": "Cinema_Chains\\Frm_QuanLyPhim.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAIwEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T00:57:17.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T00:57:17.615Z"
             },
             {
               "$type": "Document",
@@ -373,8 +370,7 @@
               "ToolTip": "D:\\Cinema_Chains\\Cinema_Chains\\Frm_QuanLyPhim.cs [Design]",
               "RelativeToolTip": "Cinema_Chains\\Frm_QuanLyPhim.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T01:41:33.074Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-22T01:41:33.074Z"
             },
             {
               "$type": "Document",
@@ -386,8 +382,7 @@
               "RelativeToolTip": "DTO\\DTO_PhanPhoiPhim.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T01:09:36.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T01:09:36.5Z"
             },
             {
               "$type": "Document",
@@ -399,8 +394,7 @@
               "RelativeToolTip": "BUL\\BUL_PhanPhoiPhim.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAD4vxwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T01:14:39.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T01:14:39.578Z"
             },
             {
               "$type": "Document",
@@ -424,8 +418,7 @@
               "RelativeToolTip": "Cinema_Chains\\Frm_NhaPhanPhoi.cs",
               "ViewState": "AgIAAJsAAAAAAAAAAADgv60AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T01:02:01.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T01:02:01.234Z"
             },
             {
               "$type": "Document",
@@ -437,8 +430,7 @@
               "RelativeToolTip": "Cinema_Chains\\Frm_QuanLyPhim.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T00:57:17.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T00:57:17.792Z"
             },
             {
               "$type": "Document",
@@ -449,8 +441,7 @@
               "ToolTip": "D:\\Cinema_Chains\\Cinema_Chains\\Frm_NhaPhanPhoi.cs [Design]",
               "RelativeToolTip": "Cinema_Chains\\Frm_NhaPhanPhoi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T00:57:17.809Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-22T00:57:17.809Z"
             },
             {
               "$type": "Document",
@@ -993,8 +984,7 @@
               "ToolTip": "D:\\Cinema_Chains\\Cinema_Chains\\Frm_QuanLyLichChieu.cs [Design]",
               "RelativeToolTip": "Cinema_Chains\\Frm_QuanLyLichChieu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T00:57:17.818Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-22T00:57:17.818Z"
             },
             {
               "$type": "Document",
