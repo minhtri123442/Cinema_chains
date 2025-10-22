@@ -51,15 +51,8 @@
   <ItemGroup>
     <Compile Include="BUL_ChiTietCombo.cs" />
     <Compile Include="BUL_Combo.cs" />
-    <Compile Include="BUL_LichChieu.cs" />
     <Compile Include="bul_MatHang.cs" />
-    <Compile Include="BUL_NhaCungCap.cs" />
-    <Compile Include="BUL_NhaPhanPhoi.cs" />
-    <Compile Include="BUL_PhanPhoiPhim.cs" />
-    <Compile Include="BUL_Phim.cs" />
-    <Compile Include="BUL_Phong.cs" />
     <Compile Include="BUL_Rap.cs" />
-    <Compile Include="BUL_TheLoai.cs" />
     <Compile Include="BUS_NhanVien.cs" />
     <Compile Include="BUS_Session.cs" />
     <Compile Include="Program.cs" />

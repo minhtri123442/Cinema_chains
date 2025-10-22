@@ -129,7 +129,7 @@ namespace Cinema_Chains
                     {
                         txtHinhAnh.Text = string.Empty;
                         picAnhCombo.Image = null;
-                    }   
+                    }
 
                 }
             }

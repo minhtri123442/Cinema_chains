@@ -142,10 +142,5 @@ namespace Cinema_Chains
         {
             OpenChildForm(new Frm_Combo());
         }
-
-        private void btnNhaCC_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Frm_NhaCungCap());
-        }
     }
 }

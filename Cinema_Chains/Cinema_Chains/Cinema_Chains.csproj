@@ -155,12 +155,6 @@
     <Compile Include="Frm_LichSuDatVe.Designer.cs">
       <DependentUpon>Frm_LichSuDatVe.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_NhaCungCap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_NhaCungCap.Designer.cs">
-      <DependentUpon>Frm_NhaCungCap.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frm_NhaPhanPhoi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -291,9 +285,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_LichSuDatVe.resx">
       <DependentUpon>Frm_LichSuDatVe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frm_NhaCungCap.resx">
-      <DependentUpon>Frm_NhaCungCap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_NhaPhanPhoi.resx">
       <DependentUpon>Frm_NhaPhanPhoi.cs</DependentUpon>
