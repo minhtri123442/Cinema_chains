@@ -61,15 +61,8 @@
     <Compile Include="dal_ChiTietCombo.cs" />
     <Compile Include="dal_Combo.cs" />
     <Compile Include="dal_KetNoi.cs" />
-    <Compile Include="DAL_LichChieu.cs" />
     <Compile Include="dal_MatHang.cs" />
-    <Compile Include="DAL_NhaCungCap.cs" />
     <Compile Include="DAL_NhanVien.cs" />
-    <Compile Include="DAL_NhaPhanPhoi.cs" />
-    <Compile Include="DAL_PhanPhoiPhim.cs" />
-    <Compile Include="DAL_Phim.cs" />
-    <Compile Include="DAL_Phong.cs" />
-    <Compile Include="DAL_TheLoai.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

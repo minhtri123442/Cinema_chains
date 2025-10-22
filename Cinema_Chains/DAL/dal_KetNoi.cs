@@ -9,7 +9,7 @@ namespace DAL
     public class dal_KetNoi
     {
         private static readonly string _connStr =
-            @"Data Source=LAPTOP-V5TSOUU2\SQLEXPRESS;Initial Catalog=Cinema_Chains;Integrated Security=True";
+            @"Data Source=ADMIN-PC\SQLEXPRESS;Initial Catalog=Cinema_Chains;Integrated Security=True";
 
         public static Cinema_ChainsDataContext GetDataContext()
         {
